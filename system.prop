@@ -42,6 +42,7 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.fluence.mode=endfire
 ro.qc.sdk.audio.fluencetype=fluence
 ro.qc.sdk.audio.ssr=false
+ro.config.media_vol_steps=25
 
 # Bluetooth
 bluetooth.hfp.client=1
