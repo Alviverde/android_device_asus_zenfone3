@@ -50,6 +50,7 @@ on fs
     mount ext4 /dev/block/bootdevice/by-name/persist /persist noatime nosuid nodev barrier=1
     mkdir /persist/data 0700 system system
     mkdir /persist/bms 0700 root system
+    mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
     restorecon_recursive /persist
 
     #write /sys/kernel/boot_adsp/boot 1
