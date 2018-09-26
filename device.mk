@@ -145,10 +145,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/bspcapability.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bspcapability.xml
 
-# Charger
-PRODUCT_PACKAGES += \
-    chargeonlymode
-
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service \

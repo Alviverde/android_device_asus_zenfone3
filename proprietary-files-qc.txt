@@ -433,6 +433,9 @@ vendor/lib/vendor.display.postproc@1.0.so|84e2bec33b405cacc4b9087152f3216ebd8e20
 vendor/lib64/libdisp-aba.so|c25a25b33bfb6c7d16f3603c3c6ec8bbfb9db6a0
 vendor/lib64/vendor.display.postproc@1.0.so|de9a0d12dcb4471a02b395878ec80fe9fc19b07c
 
+# Power-off charging daemon
+-sbin/charger:sbin/chargeonlymode;rootfs|664dfa548b81cac348f1699222160f8d2b4d247c
+
 # Power-off alarm - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
 framework/vendor.qti.hardware.alarm-V1.0-java.jar|7d8b2303fd4fe74b21c458f13d52a38587e4eb50
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk|c6ac3bd60b196cbc69fd51a532fcbcf2f4521a67
