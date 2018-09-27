@@ -452,4 +452,3 @@ etc/spkampcal.sh
 lib/libtfa98xx.so
 lib64/libtfa98xx.so
 vendor/etc/Tfa98xx.cnt
-
