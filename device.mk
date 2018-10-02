@@ -448,7 +448,7 @@ PRODUCT_COPY_FILES += \
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
-    textclassifier.smartselection.bundle1
+    textclassifier.bundle1
 
 # USB HAL
 PRODUCT_PACKAGES += \
