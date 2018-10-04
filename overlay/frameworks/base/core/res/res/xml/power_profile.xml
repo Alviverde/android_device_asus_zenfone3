@@ -25,7 +25,7 @@
     <array name="cpu.clusters.cores">
         <value>8</value>
     </array>
-    <array name="cpu.speeds.cluster0">
+    <array name="cpu.core_speeds.cluster0">
         <value>652800</value>
         <value>1036800</value>
         <value>1401600</value>
@@ -34,7 +34,7 @@
         <value>1958400</value>
         <value>2016000</value>
     </array>
-    <array name="cpu.active.cluster0">
+    <array name="cpu.core_power.cluster0">
         <value>38</value>
         <value>63</value>
         <value>77.5</value>
