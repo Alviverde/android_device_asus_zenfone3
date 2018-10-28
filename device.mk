@@ -81,8 +81,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += libGLES_android
 PRODUCT_PACKAGES += SSRestartDetector
 
-#Telephony
+# Telephony
 PRODUCT_PACKAGES += \
+    ims-ext-common \
     telephony-ext
 
 # Audio
@@ -214,7 +215,8 @@ PRODUCT_PACKAGES += \
 
 # Connectivity Engine support
 PRODUCT_PACKAGES += \
-    libcnefeatureconfig
+    libcnefeatureconfig \
+    libxml2
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \
@@ -365,6 +367,13 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.sensors.sh \
     init.class_main.sh
+
+# RCS
+PRODUCT_PACKAGES += \
+    rcs_service_aidl \
+    rcs_service_aidl.xml \
+    rcs_service_api \
+    rcs_service_api.xml
 
 # RIL
 PRODUCT_PACKAGES += \
