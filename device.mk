@@ -190,6 +190,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     liboverlay \
+    libvulkan \
     libtinyxml \
     libgenlock \
     libdisplayconfig \
