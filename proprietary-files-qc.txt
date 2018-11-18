@@ -677,26 +677,9 @@ vendor/firmware/widevine.mdt
 vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# Wifi
-vendor/bin/cnss-daemon
-vendor/bin/cnss_diag
-vendor/bin/mmi
-vendor/firmware/leia_pfp_470.fw
-vendor/firmware/leia_pm4_470.fw
-vendor/firmware/venus.b00
-vendor/firmware/venus.b01
-vendor/firmware/venus.b02
-vendor/firmware/venus.b03
-vendor/firmware/venus.b04
-vendor/firmware/venus.mdt
-vendor/firmware/wcnss.b00
-vendor/firmware/wcnss.b01
-vendor/firmware/wcnss.b02
-vendor/firmware/wcnss.b04
-vendor/firmware/wcnss.b06
-vendor/firmware/wcnss.b09
-vendor/firmware/wcnss.b10
-vendor/firmware/wcnss.b11
-vendor/firmware/wcnss.b12
-vendor/firmware/wcnss.mdt
+# WiFi - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
+vendor/bin/cnss_diag|27c1bf202f481e6d74e9c6f0eb7e25ee052cea4d
+vendor/bin/cnss-daemon|01ce2fa8f4852305bea2af33f59e41e7f05f44ad
+vendor/bin/fstman|b17e70c447a0b85631f6062a149b91df5e28a1f9
+vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so|aa29c08f806afc66adcec01cbbc01b021f83171e
 
