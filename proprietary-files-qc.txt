@@ -415,11 +415,12 @@ vendor/lib/libOmxWmaDec.so|292fabacae8283f257a7bc85b00b1b5c137b15a9
 vendor/lib/libvpplibrary.so|fc33228da9d1be65f7244c787e0ce20fc8bee654
 vendor/lib/libvqzip.so|88e4b0722850be25caebe1884a2a6765f8b2acbc
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib64/libperipheral_client.so
+# Peripheral manager - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
+vendor/bin/hal_proxy_daemon|c933dbd6872cb551c1a88060dc75f5a6fac01de5
+vendor/bin/pm-proxy|e5f8c69e8d231dd2665dc411b4e9d9e696c90187
+vendor/bin/pm-service|d9fefe2b7fec574ac4eb70a29303eeec819e449d
+vendor/lib/libperipheral_client.so|27b655cf18a1282594e5c91376b705fe31db6dab
+vendor/lib64/libperipheral_client.so|c4b0cb11e908b234a54a9f212c42ff4c37e37391
 
 # Postprocessing - from Nokia 7 Plus - WW_3_190
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
