@@ -55,11 +55,15 @@ sys.vendor.shutdown.waittime=500
 ro.build.shutdown_timeout=0
 
 # Camera
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,com.android.camera,com.facebook.katana
 camera.lowpower.record.enable=1
 persist.camera.eis.enable=1
+persist.camera.expose.aux=1
+persist.camera.HAL3.enabled=1
+persist.camera.preview.ubwc=0
 persist.vendor.camera.display.umax=1920x1080
 persist.vendor.camera.display.lmax=1280x720
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineage.snap
 vidc.enc.dcvs.extra-buff-count=2
 
 # CNE/DPM
