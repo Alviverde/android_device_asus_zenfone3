@@ -427,6 +427,9 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Voice recognition
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
