@@ -490,7 +490,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
     hostapd_cli \
-    wificond \
     wifilogd \
     wpa_supplicant \
     wpa_supplicant.conf \
