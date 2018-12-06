@@ -567,10 +567,13 @@ vendor/lib/lib-imsSDP.so|cbf48cc427b9624e14da0960fce0a30d3ad41b58
 vendor/lib/lib-imscmservice.so|d1205551b585016d4452de2921e74e7765af286d
 vendor/lib/lib-imsdpl.so|c3c5adab3fcdba2ff591dec0e2bfe09b12634278
 vendor/lib/lib-imsqimf.so|390a908e40e041bf05b5060a6cf45df430870599
+vendor/lib/lib-imsrcsbaseimpl.so
+vendor/lib/lib-imsrcs-v2.so
 vendor/lib/lib-imsxml.so|34ef9a71ace0d3835a94ab0e33ea843b692aabf7
 vendor/lib/lib-rtpcommon.so|5e149aa2deea0793342193a54182c266201f73c7
 vendor/lib/lib-siputility.so|d5ebf7aae4c890c6978118f7de400625f09e58d2
 vendor/lib/lib-uceservice.so|1522fb41c3ff1b57bb0304a93310cdf165515cc4
+vendor/lib/vendor.qti.ims.callinfo@1.0.so
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so|1ae456585ce0bc392706019c021cf8d1a2ea8a0a
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so|f7df39b1e3fcab12b5ac59903539d6363b0570a4
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so|8fff963a5675bd2a549bf92d143274c8149075e9
@@ -579,6 +582,8 @@ vendor/lib64/lib-imsSDP.so|4f91bd7a972d8909042b3f197d4961cb987b34a4
 vendor/lib64/lib-imscmservice.so|e974e9def020cf2f0c6df43d8054cc5294ffd000
 vendor/lib64/lib-imsdpl.so|5779331805dcc68853b18057e57d37bb9b15d932
 vendor/lib64/lib-imsqimf.so|7a687e6cd77b8de8298b2fcbb17322433a140ae9
+vendor/lib64/lib-imsrcsbaseimpl.so
+vendor/lib64/lib-imsrcs-v2.so
 vendor/lib64/lib-imsxml.so|90ebd0cd0210e9442eb693a1649ddeec7ece6379
 vendor/lib64/lib-rtpcommon.so|706a75ab8b7f61fd6d4b9f4b2c14295e0ec8f43a
 vendor/lib64/lib-rtpcore.so|476a90f71fe3a8b312cefc6a20f4e8fbe6b37985
@@ -586,6 +591,7 @@ vendor/lib64/lib-rtpdaemoninterface.so|da60b0ea74e633d1dbb940a6d678836757cf7eb7
 vendor/lib64/lib-rtpsl.so|d081d5131b68c00ab0729e94f8336ef84550e135
 vendor/lib64/lib-siputility.so|9d8c89c6ef644a6e0862cfb3971863e94a5114ea
 vendor/lib64/lib-uceservice.so|69c7697952ae498915e09ee750f3e077826afe0a
+vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|7d3a9f7741ec8ea7063e4cbd0bb2881feb89d945
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|316b987040238deb27017b1b4013f62dcc9cf195
 
