@@ -399,11 +399,13 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.0 \
+    android.hardware.radio.config@1.0 \
+    android.hardware.secure_element@1.0 \
     librmnetctl \
     libxml2 \
     libtar \
-    libprotobuf-cpp-lite \
-    android.hardware.radio@1.0
+    libprotobuf-cpp-lite
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
