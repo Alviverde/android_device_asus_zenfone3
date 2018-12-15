@@ -13,27 +13,28 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit RR configs
+# Inherit from those products. Most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
-
-# Include telephony stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from zenfone3 device
 $(call inherit-product, device/asus/zenfone3/device.mk)
+
+# Inherit from zenfone3 vendor
 $(call inherit-product, vendor/asus/zenfone3/zenfone3-vendor.mk)
+
+# Inherit some common ViperOS stuff
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+
+# ViperOS
+VIPER_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := zenfone3
-PRODUCT_NAME := rr_zenfone3
+PRODUCT_NAME := viper_zenfone3
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.name
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rr.maintainer="lipebs"
